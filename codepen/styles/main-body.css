@@ -1,0 +1,96 @@
+/* main body styles */
+
+.main_body {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 5px 50px;
+    background-image: radial-gradient(farthest-corner at 40px 40px,#373940 0%, black 100%);
+    color: white;
+}
+
+.left-main {
+    padding-right: 75px;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: #a3a7a8;
+}
+
+#soc-d-bold {
+    font-weight: 900;
+    color: white;
+}
+
+.p2 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #a3a7a8;
+    margin: 10px 0px;
+}
+
+.img-title {
+    font-weight: 900;
+}
+
+#cp-projects {
+    color: #73bcde;
+}
+
+#codepen-site-pic {
+    height: 350px;
+}
+
+#sign-up {
+    margin-right: 10px;
+    background-color: #7ede73;
+    color: black;
+    height: 55px;
+    width: 200px;
+    border: 0.5px solid rgb(32, 32, 32);
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    box-shadow: -5px 5px 10px black;
+}
+
+#sign-up:hover {
+    background-color: #7ede73;
+    box-shadow: 5px 5px 10px white inset, -5px -5px 10px white inset;
+}
+
+#sign-up:active {
+    background-color: #b8f3b2;
+}
+
+.main-body-button-wrapper {
+    margin-top: 30px;
+}
+
+#learn-more {
+    background-color: black;
+    color: white;
+    border: 0.5px solid rgb(32, 32, 32);
+    height: 55px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    box-shadow: -5px 5px 10px black;
+}
+
+#learn-more:hover {
+    background-color: #373940;
+    box-shadow: 5px 5px 10px white inset, -5px -5px 10px white inset;
+}
+
+#learn-more:active {
+    background-color: #a3a7a8;
+    color: black;
+}
+
+
+.main_body > .pic-wrapper > #codepen-site-pic {
+    box-shadow: -5px 5px 20px black;
+}

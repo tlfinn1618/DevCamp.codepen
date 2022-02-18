@@ -1,0 +1,112 @@
+/* NavBar styles */
+.navigation_wrapper {
+    height: 60px;
+    background-color: black;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+}
+
+/* Left */
+#codepen_logo {
+    height: 25px;
+}
+
+/* Middle */
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.explore {
+    color: gold;
+    font-size: 0.75rem;
+}
+
+.links-wrapper > .nav-link > a, .links-wrapper > .nav-link > a:visited  {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.links-wrapper > .nav-link > a:hover {
+    color: #a3a7a8;
+}
+
+.links-wrapper > .nav-link > a:active {
+    color: #373940;
+}
+
+/* Spark */
+
+.links-wrapper > .nav-link > a.spark {
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: #a3a7a8;
+}
+
+.links-wrapper > .nav-link > a.spark:hover {
+    color: white;   
+}
+
+#spark-chev {
+    padding-left: 10px;
+    font-size: 0.75rem;
+}
+
+
+/* Right */
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-wrapper > .t-button {
+    padding: 12px 15px;
+    margin: 0px 0px 0px 5px;
+    border: 0px;
+    border-radius: 2px;
+    background-color: #373940;
+    color: white;
+    transition: 0.3s;
+}
+
+.button-wrapper > .t-button:hover {
+    background-color: #6d707a;
+    color: black;
+}
+
+.button-wrapper > .t-button:active {
+    background-color: #a7aec2;
+    color: black;
+}
+
+
+
+.button-wrapper > .search-it {
+    padding: 0px 15px;
+    margin: 0px 0px 0px 5px;
+    border: 0px;
+    border-radius: 2px;
+    background-color: black;
+    color: #373940;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.button-wrapper > .search-it:hover {
+    color: #6d707a;
+}
+
+.button-wrapper > .search-it:active {
+    color: #a7aec2;
+}
+
+#create-chev {
+    color: #7ede73;
+}
